@@ -11,14 +11,7 @@ $(document).ready(function(){
 
     })
 
-    // $("#text").on("change paste keyup", function() {
-    //     $.ajax({
-    //        method: "POST",
-    //        url: "updatedy.php",
-    //        data: { content: $("#text").val() }
-    //      });
 
-    // });
 
     $('#text').keypress(function(e){ 
         var myValue = $(this).val();
